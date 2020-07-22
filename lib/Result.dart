@@ -14,7 +14,7 @@ class Result extends StatelessWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Text("result = $score / 10", style: Theme.of(context).textTheme.headline3,),
+        Text("result: $score / 10", style: Theme.of(context).textTheme.headline3,),
         RaisedButton(onPressed: _retakeQuiz, 
           child: Text("Take Quiz Again", style: TextStyle(color: Colors.white),),
           color: Colors.blue,

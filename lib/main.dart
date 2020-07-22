@@ -31,7 +31,7 @@ class MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Personality Quiz"),
+          title: Text("Trivia Quiz"),
         ),
         body: Center( 
           child: Flexible(
